@@ -1,72 +1,34 @@
 <div align="center">
 
-<img src="./assets/terminal-header.svg" width="100%" alt="Pralav Singh — full-stack developer and product builder" />
+<img src="./assets/editorial-banner.svg" width="100%" alt="Pralav — software, systems, stories" />
 
 <br />
 
-<img src="https://avatars.githubusercontent.com/u/174412353?v=4" width="126" height="126" alt="Pralav Singh" />
+[![Portfolio](https://img.shields.io/badge/pralav.portfolio-FF321C?style=flat-square&logo=vercel&logoColor=white)](https://editing-portfolio-three.vercel.app)
+[![Projects](https://img.shields.io/badge/⌁_projects-live-171512?style=flat-square&labelColor=5C5850)](https://github.com/pralav-25?tab=repositories)
+[![GitHub](https://img.shields.io/badge/◉_github-online-171512?style=flat-square&labelColor=5C5850)](https://github.com/pralav-25)
 
-### `Pralav Singh`
+<br /><br /><br />
 
-`full-stack developer` · `product builder` · `visual storyteller`
+`EVERY IDEA SHIPPED.`
 
-<br />
+<br /><br />
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-0D1117?style=for-the-badge&logo=vercel&logoColor=00E5FF)](https://editing-portfolio-three.vercel.app)
-[![GitHub](https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=7C3AED)](https://github.com/pralav-25)
-[![Projects](https://img.shields.io/badge/PROJECTS-0D1117?style=for-the-badge&logo=githubactions&logoColor=22C55E)](https://github.com/pralav-25?tab=repositories)
+![Established](https://img.shields.io/badge/EST-2024-171512?style=flat-square&labelColor=5C5850)
+![Followers](https://img.shields.io/github/followers/pralav-25?style=flat-square&label=FOLLOWERS&labelColor=171512&color=FF321C)
+![Stars](https://img.shields.io/github/stars/pralav-25?affiliations=OWNER&style=flat-square&label=STARS&labelColor=171512&color=FF321C)
+![Repositories](https://img.shields.io/badge/REPOSITORIES-13-FF321C?style=flat-square&labelColor=5C5850)
 
-</div>
+<br /><br />
 
----
+### CONTRIBUTION CROP
 
-### `~/ whoami`
+<img src="./assets/contribution-crop.svg" width="100%" alt="PRALAV rendered as a contribution-style pixel grid" />
 
-```txt
-> cat about.txt
+`▶  ◉  on the wire — building in public`
 
-I build fast, expressive web products where engineering meets storytelling.
-My work moves between full-stack experiences, AI-assisted systems, API security,
-and interfaces that turn complex ideas into something people can actually use.
+<br /><br />
 
-Current mode: learning deeply, shipping often, polishing the details.
-```
-
-### `~/ stack --active`
-
-<p>
-  <img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-0D1117?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=646CFF" alt="Vite" />
-  <img src="https://img.shields.io/badge/Cloudflare-0D1117?style=flat-square&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/Vercel-0D1117?style=flat-square&logo=vercel&logoColor=FFFFFF" alt="Vercel" />
-</p>
-
-### `~/ projects --featured`
-
-| Project | What it does | Built with |
-| :--- | :--- | :--- |
-| **[Editing Portfolio](https://github.com/pralav-25/Editing_Portfolio)** | A cinematic showcase for video-editing work. **[Live ↗](https://editing-portfolio-three.vercel.app)** | React 19 · TypeScript · Tailwind CSS · Cloudflare |
-| **[FlowLock](https://github.com/pralav-25/FlowLock)** | Detects API abuse and rate-limit bypass patterns through behavioral signals. **[Live ↗](https://flow-lock-nine.vercel.app)** | HTML · Security UX · Data visualization |
-| **[StructIQ](https://github.com/pralav-25/StructIQ)** | AI-driven infrastructure health monitoring with live sensor diagnostics. | Python · HTML · Predictive analytics |
-| **[EduGram](https://github.com/pralav-25/EduGram)** | A gamified learning experience built to make education more engaging. **[Live ↗](https://edu-gram.vercel.app)** | HTML · CSS · JavaScript |
-
-### `~/ activity --visualize`
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=pralav-25&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=C9D1D9&icon_color=7C3AED" alt="Pralav's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pralav-25&layout=compact&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=C9D1D9" alt="Pralav's most-used languages" />
-
-</div>
-
----
-
-<div align="center">
-
-`pralav@github:~$` **turning ideas into interfaces, one commit at a time.**
+<sub>`Set in the browser · composed on the web · shipped from India`</sub>
 
 </div>
