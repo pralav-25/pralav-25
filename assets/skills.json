@@ -1,0 +1,13 @@
+{
+  "title": "Working Toolkit",
+  "_comment": "A conservative snapshot based on shipped public work. Values are editable and should grow with the work.",
+  "axes": [
+    { "label": "HTML / CSS",     "value": 85 },
+    { "label": "JavaScript",     "value": 75 },
+    { "label": "TypeScript",     "value": 70 },
+    { "label": "React",          "value": 75 },
+    { "label": "Python",         "value": 50 },
+    { "label": "UI Engineering", "value": 80 },
+    { "label": "Video Editing",  "value": 80 }
+  ]
+}

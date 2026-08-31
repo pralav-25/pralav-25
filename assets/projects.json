@@ -1,0 +1,21 @@
+{
+  "_comment": "Featured public repositories, in README order. Stars, forks, and primary language are refreshed from GitHub by the cards workflow.",
+  "projects": [
+    {
+      "repo": "Editing_Portfolio",
+      "description": "An editorial portfolio for short-form, sports, and story-led video work, built with React and TypeScript."
+    },
+    {
+      "repo": "FlowLock",
+      "description": "API-abuse and rate-limit bypass detection that focuses on behavior rather than identity."
+    },
+    {
+      "repo": "StructIQ",
+      "description": "Predictive infrastructure health monitoring for structural analysis and maintenance forecasting."
+    },
+    {
+      "repo": "ResQChain",
+      "description": "A disaster-help experience with dedicated civilian and shelter response flows."
+    }
+  ]
+}
