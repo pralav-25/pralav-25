@@ -4,7 +4,7 @@ Developer and video editor based in India. I build responsive web products,
 interactive prototypes, and clear digital experiences that connect engineering
 with visual storytelling.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-C8FF75?style=flat-square&logo=githubpages&logoColor=071018)](https://pralav-25.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-C8FF75?style=flat-square&logo=vercel&logoColor=071018)](https://pralav-singh-portfolio.vercel.app)
 [![Live web project](https://img.shields.io/badge/Live_Web_Project-111827?style=flat-square&logo=vercel&logoColor=white)](https://w4u-indol.vercel.app)
 [![Video work](https://img.shields.io/badge/Video_Work-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/ig_sinisterrrr/)
 [![Email](https://img.shields.io/badge/Email-2563EB?style=flat-square&logo=gmail&logoColor=white)](mailto:singhpralav07@gmail.com)
@@ -22,7 +22,7 @@ with visual storytelling.
 
 | Project | What it demonstrates | Links |
 |---|---|---|
-| **Developer Portfolio** | Recruiter-focused React and TypeScript portfolio with accessible responsive design, static generation, and automated GitHub Pages deployment. | [Source](https://github.com/pralav-25/pralav-25.github.io) · [Live](https://pralav-25.github.io) |
+| **Developer Portfolio** | Recruiter-focused Next.js and TypeScript portfolio with accessible responsive design, static generation, and automated Vercel deployment. | [Source](https://github.com/pralav-25/pralav-25.github.io) · [Live](https://pralav-singh-portfolio.vercel.app) |
 | **Websites4U** | Responsive agency experience with service filtering, an interactive project estimator, accessible controls, and an email lead flow. | [Source](https://github.com/pralav-25/w4u) · [Live](https://w4u-indol.vercel.app) |
 | **Editing Portfolio** | Editorial portfolio for short-form, sports, and story-led video work, built with React and TypeScript. | [Source](https://github.com/pralav-25/Editing_Portfolio) · [Video work](https://www.instagram.com/ig_sinisterrrr/) |
 | **StructIQ** | Predictive infrastructure-monitoring prototype with a FastAPI service, SQLite data layer, asset diagnostics, and health scoring. | [Source](https://github.com/pralav-25/StructIQ) |
