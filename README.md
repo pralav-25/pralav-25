@@ -1,199 +1,55 @@
-<!-- Profile system adapted from https://github.com/gargibhardwaj24/gargibhardwaj24 -->
-<div align="center">
+# Hi, I'm Pralav Singh
 
-<!-- Generated from Pralav's GitHub avatar with scripts/dotify.py. -->
-<img src="assets/avatar-dots.svg" width="300" alt="Pralav Singh's GitHub avatar rendered as a dot matrix">
+Developer and video editor based in India. I build responsive web products,
+interactive prototypes, and clear digital experiences that connect engineering
+with visual storytelling.
 
-<br>
+[![Live web project](https://img.shields.io/badge/Live_Web_Project-111827?style=flat-square&logo=vercel&logoColor=white)](https://w4u-indol.vercel.app)
+[![Video work](https://img.shields.io/badge/Video_Work-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/ig_sinisterrrr/)
+[![Email](https://img.shields.io/badge/Email-2563EB?style=flat-square&logo=gmail&logoColor=white)](mailto:singhpralav07@gmail.com)
 
-<a href="https://github.com/pralav-25">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=620&lines=Pralav+Singh;Developer+%26+Video+Editor;Building+Web+Experiences;Systems.+Stories.+Shipped." alt="Animated introduction">
-</a>
+## About me
 
-<br>
+- I enjoy turning practical problems into focused, usable interfaces.
+- My public work spans web development, API security, education, civic tech,
+  and creative portfolios.
+- I edit short-form, sports, and music-led video in DaVinci Resolve.
+- I am open to internships, collaborative projects, and early-career
+  opportunities in software, product, and creative technology.
 
-<a href="https://editing-portfolio-three.vercel.app"><img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-<a href="https://www.instagram.com/ig_sinisterrrr/"><img src="https://img.shields.io/badge/Editing_Work-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Video editing work on Instagram"></a>
-<a href="https://github.com/pralav-25?tab=repositories"><img src="https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub projects"></a>
+## Featured work
 
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=pralav-25&style=flat&color=39d353&label=profile+views" alt="Profile views">
-
-</div>
-
----
-
-## `~/` whoami
-
-```console
-$ cat about.txt
-```
-
-Hi, I'm **Pralav Singh** — a developer and independent video editor from India. I build practical web products and visual stories, moving between product interfaces, problem-solving platforms, and rhythm-led edits.
-
-- Building with **React, TypeScript, JavaScript, Python, and modern web tooling**
-- Exploring **product engineering, API security, and AI-assisted systems**
-- Editing short-form, sports, and music-led stories in **DaVinci Resolve**
-- Portfolio: **[editing-portfolio-three.vercel.app](https://editing-portfolio-three.vercel.app)**
-- Current principle: **every idea shipped teaches more than every idea saved.**
-
-<br>
-
-<div align="center">
-
-## `~/` toolbox
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nextjs,tailwind,python,git,github,vscode,cloudflare&perline=13" alt="Development toolkit">
-
-<br>
-
-<img src="https://img.shields.io/badge/DaVinci_Resolve-233A51?style=flat-square&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve">
-<img src="https://img.shields.io/badge/UI_Engineering-39D353?style=flat-square&logoColor=black" alt="UI engineering">
-<img src="https://img.shields.io/badge/Product_Building-111111?style=flat-square" alt="Product building">
-
-</div>
-
----
-
-<div align="center">
-
-## `~/` skill radar
-
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-
-<!-- Edit assets/skills.json to tune the hand-authored working-toolkit radar. -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
-  <img src="assets/radar-dark.svg" width="400" alt="Working toolkit radar chart">
-</picture>
-
-</td>
-<td width="50%" align="center" valign="middle">
-
-<!-- Generated from real language byte counts across public repositories. -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/radar-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
-  <img src="assets/radar-langs-dark.svg" width="400" alt="Public repository language radar chart">
-</picture>
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-## `~/` contribution calendar
-
-<img src="assets/metrics.isocalendar.svg" width="90%" alt="Isometric contribution calendar">
-
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pralav-25/pralav-25/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pralav-25/pralav-25/output/snake.svg">
-  <img src="https://raw.githubusercontent.com/pralav-25/pralav-25/output/snake.svg" width="100%" alt="Snake animation over the contribution graph">
-</picture>
-
-</div>
-
----
-
-<div align="center">
-
-## `~/` the numbers
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
-  <img src="assets/card-stats-dark.svg" width="480" alt="Pralav's GitHub statistics">
-</picture>
-
-<br>
-
-<img src="assets/metrics.languages.svg" height="165" alt="Most-used languages">
-
-<br><br>
-
-<img src="assets/metrics.achievements.svg" width="90%" alt="GitHub achievements">
-
-</div>
-
----
-
-<div align="center">
-
-## `~/` selected work
-
-<!-- Cards are regenerated daily from assets/projects.json and the GitHub API. -->
-<table>
-<tr>
-<td width="50%">
-  <a href="https://github.com/pralav-25/Editing_Portfolio">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/card-Editing_Portfolio-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/card-Editing_Portfolio-light.svg">
-      <img src="assets/card-Editing_Portfolio-dark.svg" width="420" alt="Editing Portfolio project">
-    </picture>
-  </a>
-</td>
-<td width="50%">
-  <a href="https://github.com/pralav-25/FlowLock">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/card-FlowLock-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/card-FlowLock-light.svg">
-      <img src="assets/card-FlowLock-dark.svg" width="420" alt="FlowLock project">
-    </picture>
-  </a>
-</td>
-</tr>
-<tr>
-<td width="50%">
-  <a href="https://github.com/pralav-25/StructIQ">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/card-StructIQ-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/card-StructIQ-light.svg">
-      <img src="assets/card-StructIQ-dark.svg" width="420" alt="StructIQ project">
-    </picture>
-  </a>
-</td>
-<td width="50%">
-  <a href="https://github.com/pralav-25/ResQChain">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/card-ResQChain-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/card-ResQChain-light.svg">
-      <img src="assets/card-ResQChain-dark.svg" width="420" alt="ResQChain project">
-    </picture>
-  </a>
-</td>
-</tr>
-</table>
-
-<sub>
-
-| project | live | stack |
+| Project | What it demonstrates | Links |
 |---|---|---|
-| **[Editing Portfolio](https://github.com/pralav-25/Editing_Portfolio)** | [view portfolio](https://editing-portfolio-three.vercel.app) | `React` `TypeScript` `Tailwind CSS` |
-| **[FlowLock](https://github.com/pralav-25/FlowLock)** | [open app](https://flow-lock-nine.vercel.app) | `HTML` `CSS` `JavaScript` |
-| **[StructIQ](https://github.com/pralav-25/StructIQ)** | [source](https://github.com/pralav-25/StructIQ) | `Python` `HTML` `SQLite` |
-| **[ResQChain](https://github.com/pralav-25/ResQChain)** | [open app](https://res-q-chain.vercel.app) | `HTML` `CSS` `JavaScript` |
+| **Websites4U** | Responsive agency experience with service filtering, an interactive project estimator, accessible controls, and an email lead flow. | [Source](https://github.com/pralav-25/w4u) · [Live](https://w4u-indol.vercel.app) |
+| **Editing Portfolio** | Editorial portfolio for short-form, sports, and story-led video work, built with React and TypeScript. | [Source](https://github.com/pralav-25/Editing_Portfolio) · [Video work](https://www.instagram.com/ig_sinisterrrr/) |
+| **StructIQ** | Predictive infrastructure-monitoring prototype with a FastAPI service, SQLite data layer, asset diagnostics, and health scoring. | [Source](https://github.com/pralav-25/StructIQ) |
+| **FlowLock** | Interactive API-security concept focused on behavior-based abuse detection and rate-limit bypass scenarios. | [Source](https://github.com/pralav-25/FlowLock) · [Live](https://flow-lock-nine.vercel.app/) |
+| **ResQChain** | Disaster-response prototype with separate civilian and shelter workflows, emergency information, and resource visibility. | [Source](https://github.com/pralav-25/ResQChain) · [Live](https://res-q-chain.vercel.app) |
 
-</sub>
+## Technical toolkit
 
-</div>
+- **Frontend:** HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS
+- **Backend and data:** Python, FastAPI, PHP, MySQL, SQLite
+- **Workflow:** Git, GitHub, Vite, Vercel, Cloudflare tooling
+- **Creative:** DaVinci Resolve, short-form editing, motion and visual storytelling
 
----
+I prefer project evidence over skill ratings. The repositories above include the
+source, implementation notes, and live demos where a public deployment is
+available.
 
-<div align="center">
+## GitHub activity
 
-<sub>`01100101 01110110 01100101 01110010 01111001 00100000 01101001 01100100 01100101 01100001 00100000 01110011 01101000 01101001 01110000 01110000 01100101 01100100`</sub>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
+    <img src="assets/card-stats-dark.svg" width="480" alt="Pralav Singh's GitHub activity summary">
+  </picture>
+</p>
 
-</div>
+## Contact
+
+- Email: [singhpralav07@gmail.com](mailto:singhpralav07@gmail.com)
+- Video work: [@ig_sinisterrrr](https://www.instagram.com/ig_sinisterrrr/)
+- GitHub: [@pralav-25](https://github.com/pralav-25)
