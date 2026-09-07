@@ -22,6 +22,7 @@ with visual storytelling.
 
 | Project | What it demonstrates | Links |
 |---|---|---|
+| **ShiftWatch** | Reproducible ML evaluation, numerical drift monitoring, CSV CLI, and a React dashboard with tested report validation. | [Source](https://github.com/pralav-25/shiftwatch) · [Live](https://pralav-25.github.io/shiftwatch/) |
 | **Developer Portfolio** | Recruiter-focused Next.js and TypeScript portfolio with accessible responsive design, static generation, and automated Vercel deployment. | [Source](https://github.com/pralav-25/pralav-25.github.io) · [Live](https://pralav-singh-portfolio.vercel.app) |
 | **Websites4U** | Responsive agency experience with service filtering, an interactive project estimator, accessible controls, and an email lead flow. | [Source](https://github.com/pralav-25/w4u) · [Live](https://w4u-indol.vercel.app) |
 | **Editing Portfolio** | Editorial portfolio for short-form, sports, and story-led video work, built with React and TypeScript. | [Source](https://github.com/pralav-25/Editing_Portfolio) · [Video work](https://www.instagram.com/ig_sinisterrrr/) |
@@ -55,3 +56,10 @@ available.
 - Email: [singhpralav07@gmail.com](mailto:singhpralav07@gmail.com)
 - Video work: [@ig_sinisterrrr](https://www.instagram.com/ig_sinisterrrr/)
 - GitHub: [@pralav-25](https://github.com/pralav-25)
+
+## Maintaining this profile
+
+Featured card descriptions live in `assets/projects.json`. The scheduled
+[asset workflow](.github/workflows/radar.yml) refreshes API-backed statistics;
+project descriptions remain editorial and should describe implemented behavior.
+Run `python -m unittest discover -s tests -v` before changing the SVG generators.

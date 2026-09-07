@@ -2,6 +2,10 @@
   "_comment": "Featured public repositories, in README order. Stars, forks, and primary language are refreshed from GitHub by the cards workflow.",
   "projects": [
     {
+      "repo": "shiftwatch",
+      "description": "Reproducible ML evaluation and numerical drift monitoring with a Python CLI and React dashboard."
+    },
+    {
       "repo": "w4u",
       "description": "A responsive web-agency experience with an interactive project estimator and accessible lead flow."
     },
@@ -11,7 +15,7 @@
     },
     {
       "repo": "FlowLock",
-      "description": "API-abuse and rate-limit bypass detection that focuses on behavior rather than identity."
+      "description": "Interactive concept exploring behavior-based API abuse and rate-limit bypass detection."
     }
   ]
 }

@@ -12,6 +12,10 @@ on:
       - "scripts/cards.py"
       - ".github/workflows/radar.yml"
 
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
