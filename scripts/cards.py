@@ -181,8 +181,9 @@ def wrap(text: str, size: float, max_w: float, max_lines: int) -> list[str]:
         # did everything fit?
         used = len(" ".join(lines).split())
         if used < len(words):
-            while lines and text_width(lines[-1] + "…", size) > max_w:
-                lines[-1] = lines[-1].rsplit(" ", 1)[0]
+            while lines and lines[-1] and text_width(lines[-1] + "…", size) > max_w:
+                line = lines[-1]
+                lines[-1] = line.rsplit(" ", 1)[0] if " " in line else line[:-1]
             lines[-1] += "…"
     return lines
 
