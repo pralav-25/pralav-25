@@ -16,6 +16,10 @@
     {
       "repo": "FlowLock",
       "description": "Interactive concept exploring behavior-based API abuse and rate-limit bypass detection."
+    },
+    {
+      "repo": "StructIQ",
+      "description": "Private maintenance workspaces, verified photo reports, public tracking, and an audit trail. FastAPI with SQLite/PostgreSQL."
     }
   ]
 }

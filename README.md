@@ -26,14 +26,14 @@ with visual storytelling.
 | **Developer Portfolio** | Recruiter-focused Next.js and TypeScript portfolio with accessible responsive design, static generation, and automated Vercel deployment. | [Source](https://github.com/pralav-25/pralav-25.github.io) · [Live](https://pralav-singh-portfolio.vercel.app) |
 | **Websites4U** | Responsive agency experience with service filtering, an interactive project estimator, accessible controls, and an email lead flow. | [Source](https://github.com/pralav-25/w4u) · [Live](https://w4u-indol.vercel.app) |
 | **Editing Portfolio** | Editorial portfolio for short-form, sports, and story-led video work, built with React and TypeScript. | [Source](https://github.com/pralav-25/Editing_Portfolio) · [Video work](https://www.instagram.com/ig_sinisterrrr/) |
-| **StructIQ** | Predictive infrastructure-monitoring prototype with a FastAPI service, SQLite data layer, asset diagnostics, and health scoring. | [Source](https://github.com/pralav-25/StructIQ) |
+| **StructIQ** | Infrastructure maintenance app with private workspaces, photo reports, public tracking links, maintenance history, and SQLite/PostgreSQL persistence. | [Source](https://github.com/pralav-25/StructIQ) |
 | **FlowLock** | Interactive API-security concept focused on behavior-based abuse detection and rate-limit bypass scenarios. | [Source](https://github.com/pralav-25/FlowLock) · [Live](https://flow-lock-nine.vercel.app/) |
 | **ResQChain** | Disaster-response prototype with separate civilian and shelter workflows, emergency information, and resource visibility. | [Source](https://github.com/pralav-25/ResQChain) · [Live](https://res-q-chain.vercel.app) |
 
 ## Technical toolkit
 
 - **Frontend:** HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS
-- **Backend and data:** Python, FastAPI, PHP, MySQL, SQLite
+- **Backend and data:** Python, FastAPI, PHP, PostgreSQL, MySQL, SQLite
 - **Workflow:** Git, GitHub, Vite, Vercel, Cloudflare tooling
 - **Creative:** DaVinci Resolve, short-form editing, motion and visual storytelling
 
