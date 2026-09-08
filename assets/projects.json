@@ -3,7 +3,7 @@
   "projects": [
     {
       "repo": "interleave",
-      "description": "Interactive concurrency lab: six failure models, exhaustive schedules, rewindable execution, and shareable replays."
+      "description": "Concurrency workbench: interactive failure models, local AI assistance, private investigations, and shareable replays."
     },
     {
       "repo": "shiftwatch",

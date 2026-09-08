@@ -22,7 +22,7 @@ with visual storytelling.
 
 | Project | What it demonstrates | Links |
 |---|---|---|
-| **Interleave** | Interactive concurrency lab with six failure models, exhaustive schedule exploration, rewindable execution, and shareable replays. | [Source](https://github.com/pralav-25/interleave) · [Live](https://interleave-pralav.websites4u.chatgpt.site) |
+| **Interleave** | Concurrency workbench with six interactive failure models, local AI trace assistance, private saved investigations, and shareable replays. | [Source](https://github.com/pralav-25/interleave) · [Live](https://interleave-pralav.websites4u.chatgpt.site) |
 | **ShiftWatch** | Reproducible ML evaluation, numerical drift monitoring, CSV CLI, and a React dashboard with tested report validation. | [Source](https://github.com/pralav-25/shiftwatch) · [Live](https://pralav-25.github.io/shiftwatch/) |
 | **Developer Portfolio** | Recruiter-focused Next.js and TypeScript portfolio with accessible responsive design, static generation, and automated Vercel deployment. | [Source](https://github.com/pralav-25/pralav-25.github.io) · [Live](https://pralav-singh-portfolio.vercel.app) |
 | **Websites4U** | Responsive agency experience with service filtering, an interactive project estimator, accessible controls, and an email lead flow. | [Source](https://github.com/pralav-25/w4u) · [Live](https://w4u-indol.vercel.app) |
