@@ -2,6 +2,10 @@
   "_comment": "Featured public repositories, in README order. Stars, forks, and primary language are refreshed from GitHub by the cards workflow.",
   "projects": [
     {
+      "repo": "interleave",
+      "description": "Interactive concurrency lab: six failure models, exhaustive schedules, rewindable execution, and shareable replays."
+    },
+    {
       "repo": "shiftwatch",
       "description": "Reproducible ML evaluation and numerical drift monitoring with a Python CLI and React dashboard."
     },
