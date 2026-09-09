@@ -1,46 +1,44 @@
 # Hi, I'm Pralav Singh
 
-Developer and video editor based in India. I build responsive web products,
-interactive prototypes, and clear digital experiences that connect engineering
-with visual storytelling.
+I'm seeking **data science / ML internships**. My current focus is reproducible
+model evaluation, numerical data monitoring, and Python tools that make results
+inspectable. I also build the APIs and interfaces around these workflows.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-C8FF75?style=flat-square&logo=vercel&logoColor=071018)](https://pralav-singh-portfolio.vercel.app)
-[![Live web project](https://img.shields.io/badge/Live_Web_Project-111827?style=flat-square&logo=vercel&logoColor=white)](https://w4u-indol.vercel.app)
-[![Video work](https://img.shields.io/badge/Video_Work-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/ig_sinisterrrr/)
-[![Email](https://img.shields.io/badge/Email-2563EB?style=flat-square&logo=gmail&logoColor=white)](mailto:singhpralav07@gmail.com)
+[Portfolio](https://pralav-singh-portfolio.vercel.app) ·
+[Email](mailto:singhpralav07@gmail.com) · Based in India
 
-## About me
+## Start with ShiftWatch
 
-- I enjoy turning practical problems into focused, usable interfaces.
-- My public work spans web development, API security, education, civic tech,
-  and creative portfolios.
-- I edit short-form, sports, and music-led video in DaVinci Resolve.
-- I am open to internships, collaborative projects, and early-career
-  opportunities in software, product, and creative technology.
+[**ShiftWatch**](https://github.com/pralav-25/shiftwatch) compares a dummy baseline,
+logistic regression, and a random forest on UCI Wine with training-only
+cross-validation. It evaluates a separate holdout, then examines synthetic feature
+shifts and missingness with a Python drift library and an interactive dashboard.
 
-## Featured work
+- [Executed analysis notebook](https://github.com/pralav-25/shiftwatch/blob/main/notebooks/wine-monitoring-analysis.ipynb): training-data exploration, fold scores, holdout errors, and drift interpretation.
+- [Interactive results](https://pralav-25.github.io/shiftwatch/): inspect prediction metrics, feature distributions, and data-quality alerts.
+- [Methodology and limitations](https://github.com/pralav-25/shiftwatch/blob/main/docs/methodology.md): preprocessing isolation, multiple testing, and what the monitor cannot establish.
+- [Tests and reproduction](https://github.com/pralav-25/shiftwatch/actions/workflows/ci.yml): numerical checks, CLI behavior, report reproduction, and notebook execution.
 
-| Project | What it demonstrates | Links |
+The shifted scenarios are synthetic and the dataset is small. This is an
+educational workbench; its scores are not claims of production performance.
+
+## Supporting engineering projects
+
+| Project | Evidence to inspect | Links |
 |---|---|---|
-| **Interleave** | Concurrency workbench with six interactive failure models, local AI trace assistance, private saved investigations, and shareable replays. | [Source](https://github.com/pralav-25/interleave) · [Live](https://interleave-pralav.vercel.app) |
-| **ShiftWatch** | Reproducible ML evaluation, numerical drift monitoring, CSV CLI, and a React dashboard with tested report validation. | [Source](https://github.com/pralav-25/shiftwatch) · [Live](https://pralav-25.github.io/shiftwatch/) |
-| **Developer Portfolio** | Recruiter-focused Next.js and TypeScript portfolio with accessible responsive design, static generation, and automated Vercel deployment. | [Source](https://github.com/pralav-25/pralav-25.github.io) · [Live](https://pralav-singh-portfolio.vercel.app) |
-| **Websites4U** | Responsive agency experience with service filtering, an interactive project estimator, accessible controls, and an email lead flow. | [Source](https://github.com/pralav-25/w4u) · [Live](https://w4u-indol.vercel.app) |
-| **Editing Portfolio** | Editorial portfolio for short-form, sports, and story-led video work, built with React and TypeScript. | [Source](https://github.com/pralav-25/Editing_Portfolio) · [Video work](https://www.instagram.com/ig_sinisterrrr/) |
-| **StructIQ** | Infrastructure maintenance app with private workspaces, photo reports, public tracking links, maintenance history, and SQLite/PostgreSQL persistence. | [Source](https://github.com/pralav-25/StructIQ) |
-| **FlowLock** | Interactive API-security concept focused on behavior-based abuse detection and rate-limit bypass scenarios. | [Source](https://github.com/pralav-25/FlowLock) · [Live](https://flow-lock-nine.vercel.app/) |
-| **ResQChain** | Disaster-response prototype with separate civilian and shelter workflows, emergency information, and resource visibility. | [Source](https://github.com/pralav-25/ResQChain) · [Live](https://res-q-chain.vercel.app) |
+| **StructIQ** | FastAPI infrastructure-maintenance app with private workspaces, photo reports, audit history, and SQLite/PostgreSQL persistence. | [Source and setup](https://github.com/pralav-25/StructIQ) · [API tests](https://github.com/pralav-25/StructIQ/tree/main/tests) |
+| **Interleave** | Six deterministic concurrency experiments with shareable replays, private investigations, and local AI trace assistance. | [Source and architecture](https://github.com/pralav-25/interleave) · [Live workbench](https://interleave-pralav.vercel.app) |
+| **Developer portfolio** | Project walkthroughs and working interfaces built with TypeScript and React. | [Source](https://github.com/pralav-25/pralav-25.github.io) · [Portfolio](https://pralav-singh-portfolio.vercel.app) |
 
-## Technical toolkit
+## Tools used in these projects
 
-- **Frontend:** HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS
-- **Backend and data:** Python, FastAPI, PHP, PostgreSQL, MySQL, SQLite
-- **Workflow:** Git, GitHub, Vite, Vercel, Cloudflare tooling
-- **Creative:** DaVinci Resolve, short-form editing, motion and visual storytelling
+- **Data and ML:** Python, NumPy, pandas, SciPy, scikit-learn, Matplotlib, Jupyter
+- **Backend and persistence:** FastAPI, SQLAlchemy, PostgreSQL, SQLite
+- **Interfaces:** TypeScript, React, HTML, CSS, Tailwind CSS
+- **Validation and delivery:** pytest, Ruff, Git, GitHub Actions
 
-I prefer project evidence over skill ratings. The repositories above include the
-source, implementation notes, and live demos where a public deployment is
-available.
+I also edit short-form and sports video in DaVinci Resolve. My current internship
+search is focused on data science and machine learning.
 
 ## GitHub activity
 
