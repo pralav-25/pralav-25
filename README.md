@@ -64,3 +64,16 @@ Featured card descriptions live in `assets/projects.json`. The scheduled
 [asset workflow](.github/workflows/radar.yml) refreshes API-backed statistics;
 project descriptions remain editorial and should describe implemented behavior.
 Run `python -m unittest discover -s tests -v` before changing the SVG generators.
+
+### Preview profile cards
+
+From the repository root, render a preview without replacing the committed assets:
+
+```bash
+python scripts/cards.py --user pralav-25 --projects assets/projects.json --out /tmp/pralav-profile-cards
+```
+
+Open both `card-stats-dark.svg` and `card-stats-light.svg` in the output directory
+to check text and contrast. Public repository statistics work without a token;
+contribution and streak tiles require `GITHUB_TOKEN`. Keep the featured-work
+table and `assets/projects.json` descriptions consistent when updating a project.
