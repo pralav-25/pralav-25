@@ -18,6 +18,7 @@ shifts and missingness with a Python drift library and an interactive dashboard.
 - [Interactive results](https://pralav-25.github.io/shiftwatch/): inspect prediction metrics, feature distributions, and data-quality alerts.
 - [Methodology and limitations](https://github.com/pralav-25/shiftwatch/blob/main/docs/methodology.md): preprocessing isolation, multiple testing, and what the monitor cannot establish.
 - [Tests and reproduction](https://github.com/pralav-25/shiftwatch/actions/workflows/ci.yml): numerical checks, CLI behavior, report reproduction, and notebook execution.
+- [Project announcement and feedback](https://github.com/pralav-25/shiftwatch/discussions/3): explore the workflow and suggest improvements.
 
 The shifted scenarios are synthetic and the dataset is small. This is an
 educational workbench; its scores are not claims of production performance.
@@ -27,7 +28,7 @@ educational workbench; its scores are not claims of production performance.
 | Project | Evidence to inspect | Links |
 |---|---|---|
 | **StructIQ** | FastAPI infrastructure-maintenance app with private workspaces, photo reports, audit history, and SQLite/PostgreSQL persistence. | [Source and setup](https://github.com/pralav-25/StructIQ) · [API tests](https://github.com/pralav-25/StructIQ/tree/main/tests) |
-| **Interleave** | Six deterministic concurrency experiments with shareable replays, private investigations, and local AI trace assistance. | [Source and architecture](https://github.com/pralav-25/interleave) · [Live workbench](https://interleave-pralav.vercel.app) |
+| **Interleave** | Six deterministic concurrency experiments with shareable replays, private investigations, and local AI trace assistance. | [Source and architecture](https://github.com/pralav-25/interleave) · [Live workbench](https://interleave-pralav.vercel.app) · [Announcement and feedback](https://github.com/pralav-25/interleave/discussions/1) |
 | **Developer portfolio** | Project walkthroughs and working interfaces built with TypeScript and React. | [Source](https://github.com/pralav-25/pralav-25.github.io) · [Portfolio](https://pralav-singh-portfolio.vercel.app) |
 
 ## Tools used in these projects
