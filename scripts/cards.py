@@ -124,14 +124,23 @@ def fetch_contributions(user: str, token: str | None):
     except urllib.error.HTTPError as e:
         print(f"  contributions unavailable (HTTP {e.code})", file=sys.stderr)
         return None
-    if data.get("errors"):
-        print(f"  contributions unavailable: {data['errors'][0].get('message')}",
-              file=sys.stderr)
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+        print("  contributions unavailable (network or response error)", file=sys.stderr)
+        return None
+    if not isinstance(data, dict) or data.get("errors"):
+        print("  contributions unavailable (GraphQL response error)", file=sys.stderr)
         return None
 
-    cal = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-    days = [(dt.date.fromisoformat(d["date"]), d["contributionCount"])
-            for w in cal["weeks"] for d in w["contributionDays"]]
+    try:
+        cal = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+        total = cal["totalContributions"]
+        days = [(dt.date.fromisoformat(d["date"]), d["contributionCount"])
+                for w in cal["weeks"] for d in w["contributionDays"]]
+        if any(type(count) is not int or count < 0 for count in [total, *(c for _, c in days)]):
+            raise ValueError("Invalid contribution counts")
+    except (KeyError, TypeError, ValueError):
+        print("  contributions unavailable (incomplete calendar)", file=sys.stderr)
+        return None
     days.sort()
 
     longest = run = 0
@@ -147,7 +156,7 @@ def fetch_contributions(user: str, token: str | None):
             current += 1
         elif date != days[-1][0]:
             break
-    return cal["totalContributions"], current, longest
+    return total, current, longest
 
 
 # --------------------------------------------------------------------------- #
