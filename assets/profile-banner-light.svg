@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+<title id="title">Pralav Singh — Data science, machine learning, and Python</title>
+<desc id="desc">A personal profile banner with a stylized data-to-model diagram.</desc>
+<rect width="960" height="240" rx="18" fill="#f7faf9"/>
+<rect x="0.5" y="0.5" width="959" height="239" rx="18" fill="none" stroke="#d5e4df"/>
+<path d="M42 44h34" stroke="#13795d" stroke-width="4" stroke-linecap="round"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="42" y="109" fill="#142c29" font-size="51" font-weight="700" letter-spacing="-1.6">Pralav Singh</text>
+<text x="44" y="149" fill="#516d66" font-size="22">Data science · Machine learning · Python</text>
+<text x="44" y="197" fill="#13795d" font-size="13" font-weight="700" letter-spacing="2.6">REPRODUCIBLE. TESTABLE. EXPLAINABLE.</text>
+</g>
+<g transform="translate(661,37)" fill="none" stroke="#d5e4df" stroke-width="1.5">
+<rect width="255" height="166" rx="16" fill="#edf5f1"/>
+<path d="M29 49h48M29 66h35M29 83h48M29 100h35M29 117h48" stroke="#13795d" stroke-linecap="round" stroke-width="3"/>
+<path d="M87 83h31M118 83l-6-6m6 6-6 6M150 56l34 27-34 27M150 56v54M184 83h35"/>
+<circle cx="142" cy="51" r="9" fill="#f7faf9" stroke="#13795d"/>
+<circle cx="142" cy="115" r="9" fill="#f7faf9" stroke="#13795d"/>
+<circle cx="190" cy="83" r="10" fill="#f7faf9" stroke="#13795d"/>
+<path d="m216 84 5 5 9-12" stroke="#13795d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

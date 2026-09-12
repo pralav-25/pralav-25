@@ -1,78 +1,92 @@
-# Hi, I'm Pralav Singh
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner-light.svg">
+  <img src="assets/profile-banner-light.svg" width="960" alt="Pralav Singh — data science, machine learning, and Python">
+</picture>
 
-I'm seeking **data science / ML internships**. My current focus is reproducible
-model evaluation, numerical data monitoring, and Python tools that make results
-inspectable. I also build the APIs and interfaces around these workflows.
+**Open to data science / ML internships · Based in India**
+
+My projects combine reproducible model evaluation, numerical data monitoring,
+and the APIs and interfaces that make results easy to inspect.
 
 [Portfolio](https://pralav-singh-portfolio.vercel.app) ·
-[Email](mailto:singhpralav07@gmail.com) · Based in India
+[Email me](mailto:singhpralav07@gmail.com) ·
+[Try ShiftWatch](https://pralav-25.github.io/shiftwatch/) ·
+[Try Interleave](https://interleave-pralav.vercel.app)
 
-## Start with ShiftWatch
+## Featured work
 
-[**ShiftWatch**](https://github.com/pralav-25/shiftwatch) compares a dummy baseline,
-logistic regression, and a random forest on UCI Wine with training-only
-cross-validation. It evaluates a separate holdout, then examines synthetic feature
-shifts and missingness with a Python drift library and an interactive dashboard.
+### ShiftWatch — inspect model performance and data drift
 
-- [Executed analysis notebook](https://github.com/pralav-25/shiftwatch/blob/main/notebooks/wine-monitoring-analysis.ipynb): training-data exploration, fold scores, holdout errors, and drift interpretation.
-- [Interactive results](https://pralav-25.github.io/shiftwatch/): inspect prediction metrics, feature distributions, and data-quality alerts.
-- [Methodology and limitations](https://github.com/pralav-25/shiftwatch/blob/main/docs/methodology.md): preprocessing isolation, multiple testing, and what the monitor cannot establish.
-- [Tests and reproduction](https://github.com/pralav-25/shiftwatch/actions/workflows/ci.yml): numerical checks, CLI behavior, report reproduction, and notebook execution.
-- [Project announcement and feedback](https://github.com/pralav-25/shiftwatch/discussions/3): explore the workflow and suggest improvements.
+Compare a dummy baseline, logistic regression, and random forest on UCI Wine
+using training-only cross-validation and a separate holdout. Inspect synthetic
+feature shifts and missingness, or compare numerical CSVs through the Python CLI.
 
-The shifted scenarios are synthetic and the dataset is small. This is an
-educational workbench; its scores are not claims of production performance.
+**Python · pandas · scikit-learn · SciPy · Jupyter · React**
 
-## Supporting engineering projects
+[Live dashboard](https://pralav-25.github.io/shiftwatch/) ·
+[Executed notebook](https://github.com/pralav-25/shiftwatch/blob/main/notebooks/wine-monitoring-analysis.ipynb) ·
+[Source](https://github.com/pralav-25/shiftwatch) ·
+[Tests](https://github.com/pralav-25/shiftwatch/actions/workflows/ci.yml) ·
+[Announcement](https://github.com/pralav-25/shiftwatch/discussions/3)
 
-| Project | Evidence to inspect | Links |
-|---|---|---|
-| **StructIQ** | FastAPI infrastructure-maintenance app with private workspaces, photo reports, audit history, and SQLite/PostgreSQL persistence. | [Source and setup](https://github.com/pralav-25/StructIQ) · [API tests](https://github.com/pralav-25/StructIQ/tree/main/tests) |
-| **Interleave** | Six deterministic concurrency experiments with shareable replays, private investigations, and local AI trace assistance. | [Source and architecture](https://github.com/pralav-25/interleave) · [Live workbench](https://interleave-pralav.vercel.app) · [Announcement and feedback](https://github.com/pralav-25/interleave/discussions/1) |
-| **Developer portfolio** | Project walkthroughs and working interfaces built with TypeScript and React. | [Source](https://github.com/pralav-25/pralav-25.github.io) · [Portfolio](https://pralav-singh-portfolio.vercel.app) |
+The dataset is small and the shifts are synthetic; the results describe this
+experiment. [Methodology and limitations](https://github.com/pralav-25/shiftwatch/blob/main/docs/methodology.md).
 
-## Tools used in these projects
+### StructIQ — manage maintenance reports in private workspaces
 
-- **Data and ML:** Python, NumPy, pandas, SciPy, scikit-learn, Matplotlib, Jupyter
-- **Backend and persistence:** FastAPI, SQLAlchemy, PostgreSQL, SQLite
-- **Interfaces:** TypeScript, React, HTML, CSS, Tailwind CSS
-- **Validation and delivery:** pytest, Ruff, Git, GitHub Actions
+An infrastructure-maintenance app with photo reports, public tracking,
+audit history, and account-scoped data. Supports SQLite for local use and
+PostgreSQL for deployment.
 
-I also edit short-form and sports video in DaVinci Resolve. My current internship
-search is focused on data science and machine learning.
+**Python · FastAPI · SQLAlchemy · SQLite · PostgreSQL**
 
-## GitHub activity
+[Source and setup](https://github.com/pralav-25/StructIQ) ·
+[API tests](https://github.com/pralav-25/StructIQ/tree/main/tests)
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-stats-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
-    <img src="assets/card-stats-dark.svg" width="480" alt="Pralav Singh's GitHub activity summary">
-  </picture>
-</p>
+### Interleave — reproduce a concurrency bug, then test its fix
 
-## Contact
+Control two workers in six deterministic experiments. Rewind an execution,
+inspect the state, share a replay, or save a private investigation. Optional
+local AI assistance discusses the selected trace.
 
-- Email: [singhpralav07@gmail.com](mailto:singhpralav07@gmail.com)
-- Video work: [@ig_sinisterrrr](https://www.instagram.com/ig_sinisterrrr/)
-- GitHub: [@pralav-25](https://github.com/pralav-25)
+**TypeScript · React · Cloudflare D1 · WebLLM**
 
-## Maintaining this profile
+[Live workbench](https://interleave-pralav.vercel.app) ·
+[Source](https://github.com/pralav-25/interleave) ·
+[Model assumptions](https://github.com/pralav-25/interleave/blob/main/docs/MODEL.md) ·
+[Announcement](https://github.com/pralav-25/interleave/discussions/1)
 
-Featured card descriptions live in `assets/projects.json`. The scheduled
-[asset workflow](.github/workflows/radar.yml) refreshes API-backed statistics;
-project descriptions remain editorial and should describe implemented behavior.
-Run `python -m unittest discover -s tests -v` before changing the SVG generators.
+The lab explores finite teaching models. Optional AI requires WebGPU;
+[real-device inference quality is not yet validated](https://github.com/pralav-25/interleave/blob/main/docs/AI.md).
 
-### Preview profile cards
+## Engineering work you can inspect
 
-From the repository root, render a preview without replacing the committed assets:
+| Problem | Change and evidence |
+| --- | --- |
+| A report write could damage an input CSV or an existing report. | [Atomic writes and input-file protection](https://github.com/pralav-25/shiftwatch/pull/1), with failure and file-alias regression tests. |
+| A missingness alert could disappear when a dashboard report was exported. | [Consistent export and reimport](https://github.com/pralav-25/shiftwatch/commit/6a23184133e213a17f5bc9ef07d634332cd39bec), checked against shared threshold cases. |
+| Malformed inventory updates could change the shelter demo's saved state. | [Reject the whole invalid update](https://github.com/pralav-25/ResQChain/commit/4e277dfe1d7f28123315613d5367b84a00d8bf12), preserving valid partial edits. |
 
-```bash
-python scripts/cards.py --user pralav-25 --projects assets/projects.json --out /tmp/pralav-profile-cards
-```
+## Tools used across these projects
 
-Open both `card-stats-dark.svg` and `card-stats-light.svg` in the output directory
-to check text and contrast. Public repository statistics work without a token;
-contribution and streak tiles require `GITHUB_TOKEN`. Keep the featured-work
-table and `assets/projects.json` descriptions consistent when updating a project.
+- **Data:** Python, NumPy, pandas, SciPy, scikit-learn, Matplotlib, Jupyter
+- **Applications:** FastAPI, SQLAlchemy, PostgreSQL, React, TypeScript, Tailwind CSS
+- **Validation:** pytest, Ruff, Git, GitHub Actions
+
+I also edit short-form and sports video in DaVinci Resolve.
+[Video work](https://www.instagram.com/ig_sinisterrrr/) ·
+[Developer portfolio source](https://github.com/pralav-25/pralav-25.github.io)
+
+<details>
+<summary>GitHub activity</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
+  <img src="assets/card-stats-dark.svg" width="480" alt="Pralav Singh's GitHub activity summary">
+</picture>
+
+</details>
+
+[How this profile is maintained](docs/profile-maintenance.md)
