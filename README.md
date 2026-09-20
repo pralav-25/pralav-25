@@ -14,6 +14,8 @@ and the APIs and interfaces that make results easy to inspect.
 [Try ShiftWatch](https://pralav-25.github.io/shiftwatch/) ·
 [Try Interleave](https://interleave-pralav.vercel.app)
 
+[Browse the featured project index](docs/project-index.md) · Search locally with `python scripts/project_index.py --search "Python"`.
+
 ## Featured work
 
 ### ShiftWatch — inspect model performance and data drift

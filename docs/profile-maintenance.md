@@ -26,3 +26,20 @@ Open both `card-stats-dark.svg` and `card-stats-light.svg` in the output directo
 to check text and contrast. Public repository statistics work without a token;
 contribution and streak tiles require `GITHUB_TOKEN`. Keep the featured-work
 table and `assets/projects.json` descriptions consistent when updating a project.
+
+## Offline project discovery
+
+`python scripts/project_index.py --search "Python drift"` finds featured projects
+matching all words across their names, descriptions, and technology tags. Use
+`--format json` for structured output. It reads only `assets/projects.json` and
+needs no API access or token.
+
+After editing the catalog, regenerate the accessible Markdown index:
+
+```bash
+python scripts/project_index.py --output docs/project-index.md
+python scripts/project_index.py --output docs/project-index.md --check
+```
+
+The check command exits 1 for a missing or stale index. CI enforces this so the
+linked project descriptions and the source catalog stay aligned.
