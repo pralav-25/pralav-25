@@ -3,19 +3,40 @@
   "projects": [
     {
       "repo": "shiftwatch",
-      "description": "Reproducible ML evaluation, an executed analysis notebook, and numerical drift monitoring with a Python CLI and React dashboard."
+      "description": "Reproducible ML evaluation, an executed analysis notebook, and numerical drift monitoring with a Python CLI and React dashboard.",
+      "technologies": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "React"
+      ]
     },
     {
       "repo": "StructIQ",
-      "description": "Private maintenance workspaces, photo reports, public tracking, and audit history. FastAPI with SQLite/PostgreSQL."
+      "description": "Private maintenance workspaces, photo reports, public tracking, and audit history. FastAPI with SQLite/PostgreSQL.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL"
+      ]
     },
     {
       "repo": "interleave",
-      "description": "Concurrency workbench: six deterministic experiments, local AI trace assistance, private investigations, and shareable replays."
+      "description": "Concurrency workbench: six deterministic experiments, local AI trace assistance, private investigations, and shareable replays.",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Cloudflare D1"
+      ]
     },
     {
       "repo": "pralav-25.github.io",
-      "description": "TypeScript and React portfolio with project walkthroughs and working interfaces."
+      "description": "TypeScript and React portfolio with project walkthroughs and working interfaces.",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Next.js"
+      ]
     }
   ]
 }
