@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="360" viewBox="0 0 1120 360" role="img" aria-labelledby="title desc">
+<title id="title">Pralav Singh — Data. Code. Things that work.</title>
+<desc id="desc">Python, data science and machine learning. Open to internships. A geometric data-to-software illustration accompanies the introduction.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<defs><clipPath id="frame"><rect width="1120" height="360" rx="20"/></clipPath></defs>
+<g clip-path="url(#frame)">
+<rect width="1120" height="360" fill="#10161b"/>
+<g fill="none" stroke="#2b373c" opacity=".65"><path d="M720 0v360"/><path d="M760 0v360"/><path d="M800 0v360"/><path d="M840 0v360"/><path d="M880 0v360"/><path d="M920 0v360"/><path d="M960 0v360"/><path d="M1000 0v360"/><path d="M1040 0v360"/><path d="M1080 0v360"/><path d="M1120 0v360"/><path d="M720 0h400"/><path d="M720 40h400"/><path d="M720 80h400"/><path d="M720 120h400"/><path d="M720 160h400"/><path d="M720 200h400"/><path d="M720 240h400"/><path d="M720 280h400"/><path d="M720 320h400"/><path d="M720 360h400"/></g>
+<circle cx="972" cy="182" r="161" fill="#d6f369" opacity=".07"/>
+<path d="M46 52h26" stroke="#d6f369" stroke-width="4"/>
+<text x="86" y="57" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="2" fill="#a8b5b6">PYTHON BUILDER / INDIA</text>
+<text x="44" y="142" font-size="76" font-weight="700" letter-spacing="-3.5" fill="#f4f5ed">Pralav Singh<tspan fill="#d6f369">.</tspan></text>
+<text x="48" y="200" font-size="32" font-weight="600" letter-spacing="-.7" fill="#f4f5ed">Data. Code. Things that work.</text>
+<text x="48" y="235" font-size="20" fill="#a8b5b6">Machine learning, useful APIs, and interactive experiments.</text>
+<rect x="46" y="276" width="455" height="40" rx="20" fill="#1a252a" stroke="#2b373c"/>
+<circle cx="67" cy="296" r="5" fill="#d6f369"/>
+<text x="84" y="301" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing=".4" fill="#f4f5ed">OPEN TO DATA SCIENCE + ML INTERNSHIPS</text>
+<g fill="none" stroke="#d6f369" stroke-width="1.5">
+<path d="m877 89 120 69v112l-120-69z" fill="#1a252a"/>
+<path d="m877 89-75 44v112l75-44m-75-68 120 69 75-44m-75 44v112l-120-69m120 69 75-44"/>
+<path d="m827 148 120 69m-96-83 120 69m-94-87v113m24-99v113m23-99v113" opacity=".25"/>
+<circle cx="877" cy="89" r="5" fill="#d6f369"/>
+<circle cx="802" cy="245" r="5" fill="#d6f369"/>
+<circle cx="997" cy="158" r="5" fill="#d6f369"/>
+</g>
+<rect x="948" y="54" width="120" height="37" rx="8" fill="#d6f369"/>
+<text x="1008" y="78" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17" text-anchor="middle" fill="#10161b">build()</text>
+<rect x="762" y="287" width="138" height="32" rx="7" fill="#1a252a" stroke="#2b373c"/>
+<text x="831" y="309" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#f4f5ed">idea → demo</text>
+</g>
+<rect x=".5" y=".5" width="1119" height="359" rx="20" fill="none" stroke="#2b373c"/>
+</g>
+</svg>

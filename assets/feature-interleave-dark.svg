@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="158" viewBox="0 0 500 158" role="img" aria-labelledby="title desc">
+<title id="title">Interactive Systems</title>
+<desc id="desc">Two worker traces cross and arrive at a shared state.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="500" height="158" rx="12" fill="#1a252a"/>
+<rect x=".5" y=".5" width="499" height="157" rx="12" fill="none" stroke="#2b373c"/>
+<text x="22" y="28" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#f3b78e">INTERACTIVE SYSTEMS</text>
+<text x="474" y="29" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#a8b5b6">03</text>
+<g fill="none" stroke="#f3b78e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M56 65h113c44 0 61 51 102 51h155"/><path d="M56 116h114c42 0 62-51 104-51h152" stroke-dasharray="7 5"/><circle cx="108" cy="65" r="8"/><circle cx="319" cy="65" r="8"/><circle cx="371" cy="116" r="8"/><path d="M427 56v69"/></g>
+</g>
+</svg>

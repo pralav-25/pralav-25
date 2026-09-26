@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="158" viewBox="0 0 500 158" role="img" aria-labelledby="title desc">
+<title id="title">Apis + Applications</title>
+<desc id="desc">A bridge and mapped locations represent maintenance workspaces.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="500" height="158" rx="12" fill="#1a252a"/>
+<rect x=".5" y=".5" width="499" height="157" rx="12" fill="none" stroke="#2b373c"/>
+<text x="22" y="28" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#89d4d7">APIS + APPLICATIONS</text>
+<text x="474" y="29" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#a8b5b6">04</text>
+<g fill="none" stroke="#89d4d7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M58 121h366M90 121V65m305 56V65M90 87h305M91 65q151 103 303 0M139 90v31m50-18v18m53-13v13m51-18v18m51-31v31"/><circle cx="91" cy="55" r="7"/><circle cx="394" cy="55" r="7"/></g>
+</g>
+</svg>

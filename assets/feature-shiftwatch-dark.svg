@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="158" viewBox="0 0 500 158" role="img" aria-labelledby="title desc">
+<title id="title">Models + Monitoring</title>
+<desc id="desc">Two contrasting distribution curves represent monitoring changes in data.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="500" height="158" rx="12" fill="#1a252a"/>
+<rect x=".5" y=".5" width="499" height="157" rx="12" fill="none" stroke="#2b373c"/>
+<text x="22" y="28" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#b4b6fc">MODELS + MONITORING</text>
+<text x="474" y="29" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#a8b5b6">01</text>
+<g fill="none" stroke="#b4b6fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M34 113h436M66 64v71" opacity=".3"/><path d="M67 112c46 0 50-56 88-56s43 56 92 56"/><path d="M183 112c47 0 58-67 99-67s51 67 119 67" stroke-dasharray="6 5"/><circle cx="155" cy="56" r="5"/><circle cx="282" cy="45" r="5"/></g>
+</g>
+</svg>
