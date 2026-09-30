@@ -38,9 +38,9 @@ I build **Python tools that make data easier to trust and software easier to und
 </picture>
 <h3>Dataset Gate</h3>
 <p><strong>Catch bad data before the pipeline does.</strong></p>
-<p>Turn CSV expectations into repeatable checks. Validate contracts, compare datasets, and keep a history of results with offline reports.</p>
+<p>Catch broken CSV data in GitHub Actions. Validate contracts, keep downloadable reports when a check fails, and explore results offline.</p>
 <p><code>Python</code> <code>FastAPI</code> <code>SQLite</code> <code>pytest</code></p>
-<p><a href="https://github.com/pralav-25/dataset-gate#try-the-complete-workflow"><strong>Run the workflow ↗</strong></a> · <a href="https://github.com/pralav-25/dataset-gate">Code</a> · <a href="https://github.com/pralav-25/dataset-gate/blob/main/docs/rules.md">Rule guide</a></p>
+<p><a href="https://github.com/pralav-25/dataset-gate/blob/main/docs/github-actions.md"><strong>Add a data-quality check ↗</strong></a> · <a href="https://github.com/pralav-25/dataset-gate">Code</a> · <a href="https://github.com/pralav-25/dataset-gate/actions/workflows/action-smoke.yml">See it run</a></p>
 </td>
 </tr>
 <tr>
@@ -71,7 +71,20 @@ I build **Python tools that make data easier to trust and software easier to und
 </tr>
 </table>
 
-**Also on my workbench:** [Python Algorithm Lab](https://github.com/pralav-25/python-algorithm-lab)—readable algorithms with runnable examples and independent tests. [DSA practice](https://github.com/pralav-25/DSA-Leet)—my problem-solving notebook in code.
+**Also on my workbench:** [Python Algorithm Lab](https://github.com/pralav-25/python-algorithm-lab)—readable algorithms with runnable examples and independent tests.
+
+## Open-source work
+
+I investigate edge cases, reproduce failures, and submit focused fixes. These are
+**submitted upstream pull requests**; each link shows the current review and test status.
+
+| Project | Proposed fix | Evidence |
+| :--- | :--- | :--- |
+| The Algorithms · Python | Keep power iteration from stopping early on negative dominant eigenvalues. | [Reproduction, numerical checks & review](https://github.com/TheAlgorithms/Python/pull/15465) |
+| The Algorithms · JavaScript | Find existing keys in singleton and constant arrays with interpolation search. | [Fix, regression tests & CI](https://github.com/TheAlgorithms/JavaScript/pull/1916) |
+| keon/algorithms | Avoid overflow and underflow when computing cosine similarity for finite vectors. | [Scaling fix & regression tests](https://github.com/keon/algorithms/pull/2784) |
+
+[All upstream pull requests](https://github.com/search?q=is%3Apr+author%3Apralav-25+-user%3Apralav-25&type=pullrequests)
 
 ## What I work with
 

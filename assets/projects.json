@@ -7,7 +7,7 @@
     },
     {
       "repo": "dataset-gate",
-      "description": "CSV data contracts, dataset comparisons, validation history, and offline reports. Python CLI with an optional FastAPI interface."
+      "description": "CSV data-quality checks for GitHub Actions, downloadable reports on failure, and offline HTML review. Python CLI with an optional FastAPI interface."
     },
     {
       "repo": "interleave",
