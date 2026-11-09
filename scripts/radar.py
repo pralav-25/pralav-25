@@ -29,6 +29,7 @@ import os
 import sys
 import urllib.error
 import urllib.request
+from html import escape
 from pathlib import Path
 
 THEMES = {
@@ -144,6 +145,10 @@ def text_width(s, font_size):
 
 def render(title, axes, theme: str, size: int, rings: int, show_values: bool,
            animate: bool) -> str:
+    if len(axes) < 3 or any(not math.isfinite(value) for _, value in axes):
+        raise ValueError("A radar chart needs at least three finite numeric axes")
+    if size <= 16 or rings < 1:
+        raise ValueError("Chart size must exceed 16 and rings must be positive")
     c = THEMES[theme]
     n = len(axes)
     r = size / 2 - 8
@@ -263,7 +268,7 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool,
 
 
 def esc(s: str) -> str:
-    return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+    return escape(s, quote=True)
 
 
 # --------------------------------------------------------------------------- #
@@ -293,6 +298,11 @@ def main(argv=None):
                    help="disable the grow-in animation")
     args = p.parse_args(argv)
 
+    if args.size <= 16 or args.rings < 1 or args.limit < 3:
+        p.error("size must exceed 16, rings must be positive, and limit must be at least 3")
+    if not math.isfinite(args.curve) or args.curve <= 0:
+        p.error("curve must be finite and positive")
+
     if args.github:
         token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
         excl = {s.strip().lower() for s in args.exclude.split(",") if s.strip()}
@@ -309,8 +319,11 @@ def main(argv=None):
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     for theme in ("dark", "light"):
-        svg = render(title, axes, theme, args.size, args.rings, args.values,
-                     args.animate)
+        try:
+            svg = render(title, axes, theme, args.size, args.rings, args.values,
+                         args.animate)
+        except ValueError as error:
+            p.error(str(error))
         dest = args.out.with_name(f"{args.out.name}-{theme}.svg")
         dest.write_text(svg, encoding="utf-8")
         print(f"wrote {dest}  ({len(axes)} axes)")
