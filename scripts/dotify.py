@@ -286,12 +286,16 @@ def build_ascii(cols, rows, lum, opts):
 
 def build_braille(cols, rows, lum, opts):
     lines = []
-    for by in range(0, rows - 3, 4):
+    for by in range(0, rows, 4):
         row = []
-        for bx in range(0, cols - 1, 2):
+        for bx in range(0, cols, 2):
             bits = 0
             for dy in range(4):
                 for dx in range(2):
+                    # Keep partial cells at the bottom and right edges. Padding
+                    # stays blank even when the source pixels are inverted.
+                    if by + dy >= rows or bx + dx >= cols:
+                        continue
                     v = lum[by + dy][bx + dx]
                     if opts.invert:
                         v = 1 - v
