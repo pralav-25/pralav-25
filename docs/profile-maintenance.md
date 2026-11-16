@@ -35,3 +35,7 @@ Open both `card-stats-dark.svg` and `card-stats-light.svg` in the output directo
 to check text and contrast. Public repository statistics work without a token;
 contribution and streak tiles require `GITHUB_TOKEN`. Keep the featured-work
 table and `assets/projects.json` descriptions consistent when updating a project.
+
+The Braille portrait mode in `scripts/dotify.py` groups source pixels into 2×4
+cells. Partial cells at the bottom and right edges are padded with blank dots,
+so odd widths and heights that are not multiples of four retain the full image.
