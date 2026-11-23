@@ -22,6 +22,9 @@ evidence; the native GitHub achievement panel remains the source for earned badg
 If the optional GraphQL contribution request times out or returns incomplete data,
 the generator omits its contribution tiles and still renders the available REST
 statistics and project cards. It does not turn unavailable counts into zero.
+The same statistics list generates `assets/card-stats.md`, linked beside the
+README's activity card. The scheduled workflow commits this text equivalent
+alongside the SVGs, including the same optional-metric omissions.
 
 ## Preview profile cards
 

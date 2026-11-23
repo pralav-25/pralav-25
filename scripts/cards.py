@@ -8,8 +8,9 @@ These are files in your own repo, so they render as long as GitHub renders.
 
     python scripts/cards.py --user pralav-25 --out assets
 
-Writes <out>/card-stats-{dark,light}.svg plus one card per repo listed in
-assets/projects.json, as <out>/card-<repo>-{dark,light}.svg.
+Writes <out>/card-stats-{dark,light}.svg and their text equivalent,
+<out>/card-stats.md, plus one card per repo listed in assets/projects.json,
+as <out>/card-<repo>-{dark,light}.svg.
 
 Star and fork counts come from the live API on every run. Descriptions come from
 projects.json when set, otherwise the repo's own GitHub description.
@@ -213,6 +214,13 @@ def frame(w, h, c, body, label):
 # --------------------------------------------------------------------------- #
 
 
+def render_stats_text(user, stats):
+    lines = [f"# {user} GitHub activity statistics", "",
+             "| Statistic | Value |", "| --- | ---: |"]
+    lines.extend(f"| {label} | {value} |" for label, value in stats)
+    return "\n".join(lines) + "\n"
+
+
 def render_stats(user, stats, theme):
     c = THEMES[theme]
     pad = 22
@@ -334,7 +342,9 @@ def main(argv=None):
     for theme in ("dark", "light"):
         dest = args.out / f"card-stats-{theme}.svg"
         dest.write_text(render_stats(args.user, tiles, theme), encoding="utf-8")
-    print(f"wrote card-stats-*.svg  ({len(tiles)} tiles)")
+    (args.out / "card-stats.md").write_text(
+        render_stats_text(args.user, tiles), encoding="utf-8")
+    print(f"wrote card-stats-*.svg and card-stats.md  ({len(tiles)} tiles)")
 
     if not args.projects.exists():
         print(f"no {args.projects}, skipping repo cards")
