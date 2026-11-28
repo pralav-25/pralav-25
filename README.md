@@ -115,7 +115,7 @@ Some smaller changes show how I approach the edges of a project:
   <img src="assets/card-stats-light.svg" width="480" alt="Pralav Singh's GitHub activity summary, refreshed by the profile asset workflow">
 </picture>
 
-[How this profile is maintained](docs/profile-maintenance.md)
+[Read the activity statistics as text](assets/card-stats.md) · [How this profile is maintained](docs/profile-maintenance.md)
 
 </details>
 
